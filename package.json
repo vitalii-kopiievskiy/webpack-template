@@ -18,6 +18,11 @@
   "bugs": {
     "url": "https://github.com/vitalii-kopiievskiy/webpack-template/issues"
   },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "IE 10"
+  ],
   "homepage": "https://github.com/vitalii-kopiievskiy/webpack-template#readme",
   "devDependencies": {
     "css-loader": "^6.4.0",
@@ -27,6 +32,8 @@
     "postcss": "^8.3.9",
     "postcss-loader": "^6.1.1",
     "postcss-preset-env": "^6.7.0",
+    "pug": "^3.0.2",
+    "pug-loader": "^2.4.0",
     "sass": "^1.42.1",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.3.0",
