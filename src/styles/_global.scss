@@ -14,5 +14,7 @@ h1  {
     display: block;
     height: 140px;
     background: url("../images/webpack.png");
+    display: flex;
+    justify-content: center;
   }
 }

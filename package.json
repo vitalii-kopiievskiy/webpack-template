@@ -8,6 +8,11 @@
     "dev": "set NODE_ENV=development&&webpack",
     "build": "set NODE_ENV=production&&webpack"
   },
+  "browserslist": [
+  "last 2 versions",
+  "> 1%",
+  "IE 10"
+],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vitalii-kopiievskiy/webpack-template.git"
@@ -18,13 +23,11 @@
   "bugs": {
     "url": "https://github.com/vitalii-kopiievskiy/webpack-template/issues"
   },
-  "browserslist": [
-    "last 2 versions",
-    "> 1%",
-    "IE 10"
-  ],
   "homepage": "https://github.com/vitalii-kopiievskiy/webpack-template#readme",
   "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
     "css-loader": "^6.4.0",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.2",
