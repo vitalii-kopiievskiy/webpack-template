@@ -1,4 +1,6 @@
 import './styles/index.scss'
+import $ from "jquery";
+// import 'bootstrap';
 
 const userStack = {
     language: 'JavaScript',
@@ -10,5 +12,7 @@ const user = {
     age: '37',
     ...userStack
 }
+
+$('.block').html('jQuery is working');
 
 console.log(user)
