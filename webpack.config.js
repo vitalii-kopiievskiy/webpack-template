@@ -14,6 +14,7 @@ module.exports = {
         assetModuleFilename: "assets/[hash][ext][query]",
         clean: true,
     },
+    devtool: 'source-map',
     plugins: [
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css'

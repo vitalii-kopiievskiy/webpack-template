@@ -8,11 +8,6 @@
     "dev": "set NODE_ENV=development&&webpack",
     "build": "set NODE_ENV=production&&webpack"
   },
-  "browserslist": [
-  "last 2 versions",
-  "> 1%",
-  "IE 10"
-],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vitalii-kopiievskiy/webpack-template.git"
