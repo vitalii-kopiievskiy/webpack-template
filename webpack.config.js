@@ -9,12 +9,21 @@ console.log(mode + ' mode')
 
 module.exports = {
     mode: mode,
+    entry: {
+        scripts: './src/index.js',
+        user: './src/user.js',
+    },
     output: {
         filename: '[name].[contenthash].js',
         assetModuleFilename: "assets/[hash][ext][query]",
         clean: true,
     },
     devtool: 'source-map',
+    optimization: {
+        splitChunks: {
+            chunks: 'all',
+        },
+    },
     plugins: [
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css'
