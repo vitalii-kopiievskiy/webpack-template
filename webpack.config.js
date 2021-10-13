@@ -10,6 +10,7 @@ console.log(mode + ' mode')
 module.exports = {
     mode: mode,
     output: {
+        filename: '[name].[contenthash].js',
         assetModuleFilename: "assets/[hash][ext][query]",
         clean: true,
     },
