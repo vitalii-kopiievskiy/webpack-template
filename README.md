@@ -1,4 +1,4 @@
-# Webpack template
+# Webpack template v.2
 Basic configuration of Webpack.
 
 ## Technologies
@@ -19,7 +19,7 @@ Basic configuration of Webpack.
     "style-loader": "^3.3.0",
     "webpack": "^5.58.1",
     "webpack-cli": "^4.9.0",
-    "webpack-dev-server": "^3.11.2",
+    "webpack-dev-server": "^4.7.3",
     "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.1.3",
     "jquery": "^3.6.0"
