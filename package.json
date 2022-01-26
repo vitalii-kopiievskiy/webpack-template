@@ -4,7 +4,7 @@
   "description": "Basic configuration of Webpack",
   "main": "index.js",
   "scripts": {
-    "start": "set NODE_ENV=development&&webpack serve --open",
+    "start": "set NODE_ENV=development&&webpack serve",
     "dev": "set NODE_ENV=development&&webpack",
     "build": "set NODE_ENV=production&&webpack"
   },
@@ -37,7 +37,7 @@
     "style-loader": "^3.3.0",
     "webpack": "^5.58.1",
     "webpack-cli": "^4.9.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^4.7.3"
   },
   "dependencies": {
     "@popperjs/core": "^2.10.2",
